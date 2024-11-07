@@ -1,0 +1,105 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./resources/frontend/pages/HomePage.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./resources/frontend/components/Information.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./resources/frontend/pages/HomePage.module.scss (1) ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background-color: #f8f8f8;
+}
+
+p {
+  margin: 0;
+}
+
+.HomePage-module-homePageContainer-ffhVB {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  height: 100dvh;
+}
+
+.HomePage-module-homePageInformation-SFXsI {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  height: 93%;
+  overflow-y: scroll;
+}
+
+.HomePage-module-form-r65Fg {
+  display: flex;
+  justify-content: end;
+  column-gap: 10px;
+}
+
+.HomePage-module-input-xpNwN {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.HomePage-module-button-gcN9Y {
+  font-size: 16px;
+  padding: 12px 10px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./resources/frontend/components/Information.module.scss (1) ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background-color: #f8f8f8;
+}
+
+p {
+  margin: 0;
+}
+
+.Information-module-informationContainer-jL7HR {
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.Information-module-informationContainerTitle-Abmm3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Information-module-information-qe4fS {
+  display: grid;
+  row-gap: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.Information-module-information-qe4fS:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.Information-module-informationTitle-ffCPF p {
+  font-weight: bold;
+}
+
+.Information-module-button-ClAAQ {
+  font-size: 16px;
+  padding: 12px 10px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

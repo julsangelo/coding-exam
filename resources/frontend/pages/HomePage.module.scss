@@ -1,0 +1,36 @@
+@import '../assets/scss/main.module.scss';
+
+.homePageContainer {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: 100dvh;
+}
+
+.homePageInformation {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: 93%;
+    overflow-y: scroll;
+}
+
+.form {
+    display: flex;
+    justify-content: end;
+    column-gap: 10px;
+}
+
+.input {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.button {
+    font-size: 16px;
+    padding: 12px 10px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
